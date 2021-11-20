@@ -1,0 +1,60 @@
+body{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background: antiquewhite;
+    
+}
+
+p{
+    color: blueviolet;
+    margin: 25px;
+    color: dimgrey;
+    font-size: 30px;
+    text-align: center; 
+}
+
+h1{
+    color: coral;
+    font-size: 60px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(1,1,1,4);
+
+}
+div{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: dimgray;
+    display: inline-block;
+    margin:20px 0;
+    border-bottom: 4px solid transparent;
+    transition: 0.25s ease-in;
+    font-size: 34px;
+    line-height: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+h1{
+    font-size: 65px;
+    color: brown;
+}
+.c6{
+    margin-bottom: auto;
+    margin-right: 43px;
+}
+.c5{
+    margin-bottom: auto;
+    margin-left: 43px;
+}
+a:hover{
+    border-bottom-color: black;
+}
