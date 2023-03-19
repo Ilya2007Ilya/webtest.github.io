@@ -269,11 +269,6 @@ body{
     }
 
     .desktop_phone{
-        position: absolute;
-        left: 161px;
-        top: 33px;
-        font-size: 23px;
-        font-weight: bold;
         display: none;
     }
 
