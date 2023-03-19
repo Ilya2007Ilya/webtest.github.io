@@ -4,7 +4,11 @@ body{
 
 .main.img{
     position: absolute;
+    max-width: 100%;
+    height: auto;
 }
+
+
 
 .bottom{
     position: absolute;
@@ -202,7 +206,7 @@ body{
     transition: width 2s; 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
     .txt{
         position: absolute;
         width: 338px;
@@ -236,7 +240,7 @@ body{
         font-size: 20px;
         line-height: 24px;
         color: #000000;
-        left: 53px;
+        left: 66px;
         top: 14px;
     }
 
@@ -250,7 +254,7 @@ body{
         font-size: 20px;
         line-height: 24px;
         color: #000000;
-        left: 141px;
+        left: 152px;
         top: 14px;
     }
 
@@ -264,7 +268,7 @@ body{
         font-size: 20px;
         line-height: 24px;
         color: #000000;
-        left: 268px;
+        left: 280px;
         top: 14px;
     }
 
@@ -273,6 +277,12 @@ body{
     }
 
     .bottom{
+        position: absolute;
+        width: 1752px;
+        height: 3px;
+        left: 122px;
+        top: 107px;
+        background: black;
         display: none;
     }
 
@@ -382,6 +392,4 @@ body{
         display: none;  
     }
     
-    
 }
-
